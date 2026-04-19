@@ -1,0 +1,31 @@
+{
+  "name": "breakpoint-agent",
+  "version": "1.0.0",
+  "description": "AI agent that stress-tests business model assumptions using scenario analysis and Google Gemini",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "business-model",
+    "stress-testing",
+    "scenario-analysis",
+    "gemini",
+    "financial-modeling",
+    "break-even",
+    "vulnerability-analysis"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
